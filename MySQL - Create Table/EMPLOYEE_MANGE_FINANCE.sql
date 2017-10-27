@@ -1,9 +1,9 @@
 /*
- * Author   - Jason Sneddon
- * Date       - 25 October 2017
- * Course   - CS 441: Software Engineering
+ * Author  - Jason Sneddon
+ * Date    - 25 October 2017
+ * Course  - CS 441: Software Engineering
  * Purpose - AVtory Database: Illustrates the Many-to-Many 
- *                    Relationship between EMPLOYEE & FINANCE
+ *           Relationship between EMPLOYEE & FINANCE
  */
 
 CREATE TABLE EMPLOYEE_MANAGE_FINANCE
