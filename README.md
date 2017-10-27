@@ -8,5 +8,6 @@
 * ERD and Schema
 
 ## Implementation
-* MySQL - Create Tables
+* MySQL - Create Table
+  * Finial `CREATE TABLE` scripts for AVtory database
 
