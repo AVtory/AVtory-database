@@ -1,8 +1,8 @@
 /*
- * Author     - Jason Sneddon
- * Date         - 25 October 2017
- * Course     - CS 441: Software Engineering
- * Purpose   - AVtory Database: Category Table
+ * Author   - Jason Sneddon
+ * Date     - 25 October 2017
+ * Course   - CS 441: Software Engineering
+ * Purpose  - AVtory Database: Category Table
  * Examples - Audio, Video, Lighting
  */
 
