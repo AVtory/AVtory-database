@@ -9,5 +9,5 @@
 
 ## Implementation
 * MySQL - Create Table
-  * Finial `CREATE TABLE` scripts for AVtory database
+  * Final `CREATE TABLE` scripts for AVtory database.
 
