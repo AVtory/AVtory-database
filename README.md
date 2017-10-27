@@ -8,4 +8,5 @@
 * ERD and Schema
 
 ## Implementation
-* MySQL 
+* MySQL - Create Tables
+
