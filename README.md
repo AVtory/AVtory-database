@@ -4,4 +4,8 @@
 
 [logo]: https://s3-us-west-2.amazonaws.com/cs-441-avtory/images/AVtory_logo_Cropped.png "AVtory Logo"
 
-## File Structure
+## Design
+* ERD and Schema
+
+## Implementation
+* MySQL 
