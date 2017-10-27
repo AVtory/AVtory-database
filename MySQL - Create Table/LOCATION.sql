@@ -9,7 +9,7 @@
 
 CREATE TABLE LOCATION
 (
-	Location_ID INTEGER(11) NOT NULL AUTO INCREMENT, 
+	Location_ID INTEGER(11) NOT NULL AUTO_INCREMENT, 
 	/* === Foreign Key  === */
 	/* Department_ID INTEGER(11) NOT NULL, */
 	Location_Name VARCHAR(300) NOT NULL,

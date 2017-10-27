@@ -8,7 +8,7 @@
 
 CREATE TABLE ITEM
 (
-	Item_ID INTEGER(11) NOT NULL AUTO INCREMENT, 
+	Item_ID INTEGER(11) NOT NULL AUTO_INCREMENT, 
 	/* === Foreign Keys === */
 	/*Category_ID INTEGER(11) NOT NULL, */
 	/*Location_ID INTEGER(11) NOT NULL, */
