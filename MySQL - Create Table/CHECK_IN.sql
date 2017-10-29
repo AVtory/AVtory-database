@@ -7,7 +7,7 @@
 
 CREATE TABLE CHECK_IN
 (
-	Check_In_ID INTEGER(11) NOT NULL AUTO INCREMENT, 
+	Check_In_ID INTEGER(11) NOT NULL AUTO_INCREMENT, 
 	/* === Foreign Keys === */
 	/* Employee_ID INTEGER(11) NOT NULL,   */
 	/* Item_ID INTEGER(11) NOT NULL, 	*/
