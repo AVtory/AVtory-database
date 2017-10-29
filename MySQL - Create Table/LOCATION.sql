@@ -3,7 +3,7 @@
  * Date    - 25 October 2017
  * Course  - CS 441: Software Engineering
  * Purpose - AVtory Database: Location Table used to indentify a
- *			 particular area where a piece of equipment is stored 
+ *           particular area where a piece of equipment is stored 
  *           within a department.  
  */
 
