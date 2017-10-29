@@ -7,7 +7,7 @@
 
 CREATE TABLE CHECKOUT
 (
-	Checkout_ID INTEGER(11) NOT NULL AUTO INCREMENT, 
+	Checkout_ID INTEGER(11) NOT NULL AUTO_INCREMENT, 
 	/* === Foreign Keys === */
 	/* Employee_ID INTEGER(11) NOT NULL , */
 	/* Item_ID INTEGER(11) NOT NULL ,*/
