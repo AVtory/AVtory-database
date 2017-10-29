@@ -1,14 +1,14 @@
 /*
- * Author   - Jason Sneddon
- * Date       - 25 October 2017
- * Course   - CS 441: Software Engineering
+ * Author  - Jason Sneddon
+ * Date    - 27 October 2017
+ * Course  - CS 441: Software Engineering
  * Purpose - AVtory Database: Item Table used to represent a 
- *                   piece of equipment or inventory. 
+ *           piece of equipment or inventory. 
  */
 
 CREATE TABLE ITEM
 (
-	Item_ID INTEGER(11) NOT NULL AUTO INCREMENT, 
+	Item_ID INTEGER(11) NOT NULL AUTO_INCREMENT, 
 	/* === Foreign Keys === */
 	/*Category_ID INTEGER(11) NOT NULL, */
 	/*Location_ID INTEGER(11) NOT NULL, */
