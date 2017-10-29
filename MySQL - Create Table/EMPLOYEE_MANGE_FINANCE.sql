@@ -12,13 +12,11 @@ CREATE TABLE EMPLOYEE_MANAGE_FINANCE
 	Employee_ID INTEGER(11) NOT NULL, 
 	Finance_ID INTEGER(11) NOT NULL,
 	
-	CONSTRAINT Employee_Manage_Finance_PK PRIMARY KEY(Employee_ID, Finance_ID)
+	CONSTRAINT Employee_Manage_Finance_PK PRIMARY KEY(Employee_ID, Finance_ID),
 	
 	/* === Foreign Keys === */
-	/*
 	CONSTRAINT Employee_Manage_Finance_Employee_FK FOREIGN KEY(Employee_ID)
 		REFERENCES EMPLOYEE(Employee_ID) ON DELETE CASCADE, 
 	CONSTRAINT Employee_Manage_Finance_Finance_FK FOREIGN KEY(Finance_ID)
-		REFERENCES FINANCE(Finance_ID) ON DELETE CASCADE,
-	*/
+		REFERENCES FINANCE(Finance_ID) ON DELETE CASCADE
 );

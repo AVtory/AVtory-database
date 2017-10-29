@@ -9,7 +9,7 @@ CREATE TABLE EMPLOYEE
 (
 	Employee_ID INTEGER(11) NOT NULL AUTO_INCREMENT, 
 	/* === Foreign Key  === */
-	/* User_ID INTEGER(11) NOT NULL, */
+	User_ID INTEGER(11) NOT NULL,
 	First_Name VARCHAR(35) NOT NULL,
 	Last_Name VARCHAR(35) NOT NULL,
 	Email VARCHAR(75) NOT NULL,
@@ -18,5 +18,8 @@ CREATE TABLE EMPLOYEE
 	Role VARCHAR(25), 
 	
 	CONSTRAINT Employee_PK PRIMARY KEY(Employee_ID),
-	CONSTRAINT Employee_Email_Unique UNIQUE(Email)
+	CONSTRAINT Employee_Email_Unique UNIQUE(Email),
+	/* === Foreign Key === */
+	CONSTRAINT Employee_User_FK FOREIGN KEY(User_ID)
+		REFERENCES USERS(User_ID) ON DELETE CASCADE
 );
