@@ -16,6 +16,6 @@ CREATE TABLE LOCATION
 	
 	CONSTRAINT Location_PK PRIMARY KEY(Location_ID),
 	/* === Foreign Keys === */
-	CONSTRAINT Location_Department_FK FOREIGN KEY(Location_ID)
+	CONSTRAINT Location_Department_FK FOREIGN KEY(Department_ID)
 		REFERENCES DEPARTMENT(Department_ID) ON DELETE CASCADE
 );
