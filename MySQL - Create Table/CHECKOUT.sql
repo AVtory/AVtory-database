@@ -5,15 +5,14 @@
  * Purpose - AVtory Database: Checkout Table 
  */
 
-CREATE TABLE CHECKOUT
+CREATE TABLE `CHECKOUT` 
 (
-	Checkout_ID INTEGER(11) NOT NULL AUTO_INCREMENT, 
-	/* === Foreign Keys === */
-	/* Employee_ID INTEGER(11) NOT NULL , */
-	/* Item_ID INTEGER(11) NOT NULL ,*/
-	Date_Checked_Out DATETIME NOT NULL,
-	Due_Date TIMESTAMP NOT NULL,
-	Reason VARCHAR(300),
-	
-	CONSTRAINT Checkout_PK PRIMARY KEY(Checkout_ID)
-);
+  `Item_ID` int(11) NOT NULL,
+  `Employee_ID` int(11) NOT NULL,
+  `Date_Checked_Out` datetime NOT NULL,
+  `Due_Date` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`Item_ID`),
+  KEY `Checkout_Employee_FK` (`Employee_ID`),
+  CONSTRAINT `Checkout_Employee_FK` FOREIGN KEY (`Employee_ID`) REFERENCES `EMPLOYEE` (`Employee_ID`) ON DELETE CASCADE,
+  CONSTRAINT `Checkout_Item_FK` FOREIGN KEY (`Item_ID`) REFERENCES `ITEM` (`Item_ID`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
