@@ -11,3 +11,7 @@
 ## Implementation
 * `MySQL` contains all the scripts used to create the tables for the AVtory database. 
 
+## Database Specifications
+AVtory's database is hosted on an Amazon RDS instance with the following specifications:
+* DB Instance Class - db.t2.micro
+* MySQL Version - MySQL 5.6.37
